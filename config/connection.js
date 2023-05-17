@@ -12,6 +12,12 @@ mongoose
   })
   .catch((error) => {
     console.error('Error connecting to MongoDB:', error);
+    process.exit(1);
   });
+
+mongoose.connection.on('error', (error) => {
+  console.error('MongoDB error:', error);
+  process.exit(1);
+});
 
 module.exports = mongoose.connection;

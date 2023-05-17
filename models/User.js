@@ -5,7 +5,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     trim: true,
     required: true,
-    unique: true
+    unique: true,
   },
   email: {
     type: String,
@@ -13,21 +13,21 @@ const UserSchema = new mongoose.Schema({
     unique: true,
     match: [
       /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/,
-      'Please enter a valid email'
-    ]
+      'Please enter a valid email',
+    ],
   },
   thoughts: [
     {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'Thought'
-    }
+      ref: 'Thought',
+    },
   ],
   friends: [
     {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'User'
-    }
-  ]
+      ref: 'User',
+    },
+  ],
 });
 
 UserSchema.virtual('friendCount').get(function () {
@@ -37,4 +37,3 @@ UserSchema.virtual('friendCount').get(function () {
 const User = mongoose.model('User', UserSchema);
 
 module.exports = User;
-
