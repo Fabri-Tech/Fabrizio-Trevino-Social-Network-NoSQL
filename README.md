@@ -1,12 +1,17 @@
 # Fabrizio Treviño NoSQLSocial Network API
 
-This is a solution for the NoSQL Challenge to build an API for a social network web application using MongoDB as the database and Express.js with Mongoose ODM for routing and data modeling.
+This project is a challenge to build an API for a social network web application using a NoSQL database. The API allows users to share their thoughts, react to friends' thoughts, and create a friend list. The technologies used include Express.js for routing, MongoDB for the database, and Mongoose as the ODM (Object Data Modeling) tool.
 
-## Table of Contents
+## Objective
 
-## Technologgy used
+The objective of this project is to develop a robust API for a social network application that can handle large amounts of unstructured data. The API should be able to perform CRUD (Create, Read, Update, Delete) operations on users, thoughts, reactions, and friend lists.
 
-## Insomnia deployment
+## Technologies Used
+
+- Express.js
+- Mongoose
+- MongoDB
+- Moment.js
 
 ## Deployement link
 
