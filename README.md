@@ -45,7 +45,7 @@ Make sure your
 
 ## Deployement link
 
-Please watch the following walkthrough video for a demonstration of the application's functionality [link to video](https://app.screencastify.com/manage/videos/4zwGUvaDP9MlUJA8vM2Y)
+Please watch the following walkthrough video for a demonstration of the application's functionality [link to video](https://drive.google.com/file/d/1pr2hAbzsjJC7KR5ejmBt0T4lD_jyiw0Q/view)
 
 ## GitHub Repositories
 
