@@ -37,6 +37,8 @@ As a developer, I want to create notes or code snippets with or without an inter
 
 - Finally run the server using "node server.js"
 
+![node](./assets/node.JPG)
+
 Once it is running make sure to write the correct local host in insomnia and start working.
 
 Make sure your
